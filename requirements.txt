@@ -1,0 +1,73 @@
+# # -----------------------
+# # Core Machine Learning
+# # -----------------------
+# tensorflow==2.10.0
+# numpy
+# pandas
+# scipy
+# #scikit-learn   # Recommended for common ML utilities
+
+# # -----------------------
+# # Data Visualization
+# # -----------------------
+# matplotlib
+# seaborn
+
+# # -----------------------
+# # Experiment Tracking & Versioning
+# # -----------------------
+# dvc
+# mlflow==2.2.2
+
+# # -----------------------
+# # Utilities
+# # -----------------------
+# tqdm
+# python-box==6.0.2
+# pyYAML
+# types-PyYAML
+# ensure==1.0.2
+# joblib
+
+# # -----------------------
+# # Web Development (API)
+# # -----------------------
+# Flask
+# Flask-Cors
+
+# # -----------------------
+# # File Handling
+# # -----------------------
+# gdown
+
+# # -----------------------
+# # Development Tools
+# # -----------------------
+# notebook        # Jupyter Notebook support
+
+# # -----------------------
+# # Local Package Install
+# # -----------------------
+# -e .
+
+
+
+tensorflow==2.12.0
+pandas 
+dvc
+mlflow==2.2.2
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+gdown
+-e .
