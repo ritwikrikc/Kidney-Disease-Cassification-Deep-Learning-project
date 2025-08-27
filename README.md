@@ -38,3 +38,34 @@ conda activate cnnkidneynew
 ```bash
 pip install -r requirements.txt
 ```
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs)
+
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI="https://dagshub.com/ritwikchowdhury1010/Kidney-Disease-Cassification-Deep-Learning-project.mlflow" 
+
+MLFLOW_TRACKING_USERNAME=ritwikchowdhury1010
+MLFLOW_TRACKING_PASSWORD=password
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/ritwikchowdhury1010/Kidney-Disease-Cassification-Deep-Learning-project.mlflow 
+
+export MLFLOW_TRACKING_USERNAME=ritwikchowdhury1010 
+
+export MLFLOW_TRACKING_PASSWORD=password
+```
+
+
